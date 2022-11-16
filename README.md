@@ -1,16 +1,12 @@
 ## 🎯기능 목록
 
-- 분할 관련 기능 - `Spliter` : `Class`
-    - enumMap을 초기화 한다. - `init`
-    - 로또의 숫자를 몇개를 맞추었는지 확인하여 등수를 알려준다. - `checkMyLotto()`
+- 분할 관련 기능 - `Split` : `Class`
+    - 분할에 필요한 자료구조들을 초기화 한다. - `init`
+    - 이름을 받고 그가 리뷰해야하는 사람들을 반환한다. - `getPeopleToReview()`
 
-
-- 당첨등수 관련 기능 - `Win.kt` : `Enum Class`
-    - 로또의 당첨등수를 알려준다. - `getMyPlace()`
-    - 당첨등수에 따른 상금을 알려준다. - `getIncome()`
-
-
-- 로또판매점 관련 기능 - `LottoMarket.kt` : `Class`
-    - 1 ~ 45까지의 중복되지 않는 숫자 6개를 뽑는다. - `createLotto()`
-    - 사용자가 로또를 구입하려는 금액에 맞추어 로또를 발행한다. - `buyLottos()`
-    - 사용자가 구매하려는 금액에 맞춘 로또의 개수를 알려준다. - `getTheNumberOfLotto()`
+- 사용자 입출력 관련 기능 - `UI` : `Class`
+  - 입력
+    - 코드리뷰를 받을 3명을 알려줄 이름을 입력한다. - `inputMyName()`
+  - 출력
+    - 양식에 맞추어 코드리뷰를 하는 사람과 코드리뷰를 받을 사람을 출력한다. - `printEntireReviewer()`
+    - 내 이름에 따른 코드리뷰를 받을 3명을 출력한다. - `printPeopleToReview()`
