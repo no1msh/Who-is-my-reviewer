@@ -1,0 +1,9 @@
+enum class People {
+    KANG_SUKJIN,
+    KIM_MINJU,
+    CHO_SUNGROK,
+    CHOI_YERIN,
+    HWANG_SUYEON,
+    LEE_YEONGJU,
+    MOON_SANGHYUN;
+}
